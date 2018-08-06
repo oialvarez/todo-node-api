@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "username": "challenger",
+    "password": "null",
+    "database": "challenger",
+    "host": "35.232.203.224",
     "dialect": "mysql"
   },
   "test": {
