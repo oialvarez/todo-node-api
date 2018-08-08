@@ -3,8 +3,6 @@ var router = express.Router();
 var model = require('../models');
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+router.get('/health', require('./health.controller'));
 
 module.exports = router;
